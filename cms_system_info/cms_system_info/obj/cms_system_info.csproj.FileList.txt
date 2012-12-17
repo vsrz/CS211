@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\cms_system_info.Form1.resources
+obj\Debug\cms_system_info.Properties.Resources.resources
+obj\Debug\cms_system_info.csproj.GenerateResource.Cache
+bin\Debug\cms_system_info.exe
+bin\Debug\cms_system_info.pdb
+obj\Debug\cms_system_info.exe
+obj\Debug\cms_system_info.pdb

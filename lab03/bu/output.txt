@@ -1,0 +1,38 @@
+[ville017@uh270linux17 lab03]$ ls -la *.cpp
+-rw-r--r--  1 ville017 cs  564 Sep 27 09:28 Course.cpp
+-rw-r--r--  1 ville017 cs  416 Sep 27 09:28 lab03.cpp
+-rw-r--r--  1 ville017 cs  811 Sep 27 09:28 Person.cpp
+-rw-r--r--  1 ville017 cs 1082 Sep 27 09:28 StudentCollection.cpp
+-rw-r--r--  1 ville017 cs  695 Sep 27 09:28 Student.cpp
+-rw-r--r--  1 ville017 cs  843 Sep 27 09:28 StudentProfile.cpp
+[ville017@uh270linux17 lab03]$ g++ -c Course.cpp -o Course.obj
+[ville017@uh270linux17 lab03]$ g++ -c Person.cpp -o Person.obj
+[ville017@uh270linux17 lab03]$ g++ -c StudentCollection.cpp -o StudentCollection.obj
+[ville017@uh270linux17 lab03]$ g++ -c Student.cpp -o Student.obj
+[ville017@uh270linux17 lab03]$ g++ -c StudentProfile.cpp -o StudentProfile.obj
+[ville017@uh270linux17 lab03]$ g++ lab03.cpp Course.obj Person.obj StudentCollection.obj Student.obj StudentProfile.obj
+[ville017@uh270linux17 lab03]$ ./a.out
+Name/Age/Gender: Villegas, Jeremy / 25 / M
+SSN            : 123456789
+Student Number : 11111112
+Course         : 379 - HIST379
+Course         : 211 - CS211
+Course         : 211 - MATH160
+
+Name/Age/Gender: Anders, Bob / 22 / M
+SSN            : 100203000
+Student Number : 11111177
+Course         : 555 - BUS555
+Course         : 357 - MKT357
+Course         : 357 - SPAN201
+
+Name/Age/Gender: Beltran, Andrea / 33 / F
+SSN            : 900807000
+Student Number : 22222299
+Course         : 672 - CJ672
+Course         : 580 - CJ580
+Course         : 580 - PSY490
+
+
+sh: pause: command not found
+[ville017@uh270linux17 lab03]$

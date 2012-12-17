@@ -1,0 +1,36 @@
+[ville017@uh270linux17 lab04]$ ls -la
+total 20
+drwxr-xr-x  2 ville017 cs 4096 Sep 27 09:50 .
+drwxr-xr-x  8 ville017 cs 4096 Sep 27 07:47 ..
+-rw-r--r--  1 ville017 cs 1889 Sep 27 09:49 Employee.cpp
+-rw-r--r--  1 ville017 cs  846 Sep 27 07:47 Employee.h
+-rw-r--r--  1 ville017 cs  859 Sep 27 09:49 lab04.cpp
+[ville017@uh270linux17 lab04]$ g++ -c Employee.cpp -o Employee.obj
+[ville017@uh270linux17 lab04]$ g++ lab04.cpp Employee.cpp
+[ville017@uh270linux17 lab04]$ ./a.out
+
+Name (ID No.)    : Unknown (1000)
+Office/Dept No   : 10 0
+Years of Exp     : 0
+Position/Salary  : E 0
+
+Total Employees  : 1
+Next EmpID is    : 1001
+Next OfficeNo is : 11
+
+Enter new employee:
+===================
+Name             : Adam Smith
+Position         : P
+Years of Exp     : 7
+
+Name (ID No.)    : Adam Smith (1001)
+Office/Dept No   : 11 10
+Years of Exp     : 7
+Position/Salary  : P 65000
+
+Total Employees  : 2
+Next EmpID is    : 1002
+Next OfficeNo is : 12
+sh: pause: command not found
+[ville017@uh270linux17 lab04]$

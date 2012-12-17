@@ -1,0 +1,155 @@
+List of Departments (ID)
+========================
+ComputerScience (100)
+Education (101)
+Business (102)
+Engineering (103)
+
+ERROR: In CreateNewFaculty, Department 130 is invalid.
+
+List of Faculties (ID)
+======================
+John_Smith (600)
+Bob_Anderson (601)
+Sue_Clark (602)
+Abu_Talib (603)
+Nancy_Bank (604)
+Susan_Brown (605)
+Ahmad_Saleh (606)
+Beth_Card (607)
+Joe_Abraham (608)
+
+ERROR: In ListFacultiesInDepartment, Department ID 100 is invalid.
+
+Faculties in Department 101
+===========================
+Abu_Talib (603)
+Nancy_Bank (604)
+Susan_Brown (605)
+
+Faculties in Department 102
+===========================
+Ahmad_Saleh (606)
+Beth_Card (607)
+Joe_Abraham (608)
+
+ERROR: In ListFacultiesInDepartment, Department ID 130 is invalid.
+
+ERROR: In CreateNewStudent, Advisor ID 910 is invalid.
+
+List of Student (ID)
+====================
+Kathy_Chen (500)
+Kelly_Wong (501)
+
+ERROR: In ListStudentsOfAFaculty, Faculty ID 600 is invalid.
+
+ERROR: In ListStudentsOfAFaculty, Faculty ID 650 is invalid.
+
+ERROR: In CreateNewCourse, Teacher 600 is invalid.
+
+ERROR: In CreateNewCourse, Teacher 600 is invalid.
+
+ERROR: In CreateNewCourse, Teacher 0 is invalid.
+
+ERROR: In CreateNewCourse, Teacher 0 is invalid.
+
+ERROR: In CreateNewCourse, Teacher 706 is invalid.
+
+List of Courses (ID)
+====================
+Ed100 (200)
+Ed200 (201)
+Bus101 (202)
+Bus102 (203)
+Bus103 (204)
+
+Courses Taught By Faculty 606
+=============================
+Bus101 (202)
+Bus102 (203)
+
+ERROR: In ListCoursesTaughtByFaculty, Faculty ID 706 is invalid.
+
+ERROR: In ListCoursesOfADepartment 100 is invalid.
+
+Courses in Department 101
+=========================
+Ed100 (200)
+Ed200 (201)
+
+Courses in Department 102
+=========================
+Bus101 (202)
+Bus102 (203)
+Bus103 (204)
+
+ERROR: In ListCoursesOfADepartment 130 is invalid.
+
+ERROR: In AddACourseForAStudent, Course ID 200 is invalid.
+
+ERROR: In AddACourseForAStudent, Student ID 500 is invalid.
+
+ERROR: In AddACourseForAStudent, Student ID 500 is invalid.
+
+ERROR: In AddACourseForAStudent, Student ID 500 is invalid.
+
+ERROR: In AddACourseForAStudent, Course ID 230 is invalid.
+
+ERROR: In AddACourseForAStudent, Student ID 500 is invalid.
+
+ERROR: In DropACourseForAStudent, Course ID 231 is invalid.
+
+ERROR: In DropACourseForAStudent, Student ID 500 is invalid.
+
+ERROR: In DropACourseForAStudent, Student ID 550 is invalid.
+
+ERROR: In AssignDepartmentChair, Department ID 100 is invalid.
+
+ERROR: In AssignDepartmentChair, Faculty ID 600 is invalid.
+
+ERROR: In AssignDepartmentChair, Faculty ID 610 is invalid.
+
+ERROR: In AssignDepartmentChair, Department ID 110 is invalid.
+
+ERROR: In AssignInstructorToCourse, Faculty ID 600 is invalid.
+
+List of Departments (ID)
+========================
+ComputerScience (100)
+Education (101)
+Business (102)
+Engineering (103)
+
+List of Departments (ID)
+========================
+ComputerScience (100)
+Education (101)
+Business (102)
+
+List of Student (ID)
+====================
+Kathy_Chen (500)
+Kelly_Wong (501)
+
+List of Courses (ID)
+====================
+Ed100 (200)
+Ed200 (201)
+Bus101 (202)
+Bus102 (203)
+Bus103 (204)
+
+List of Faculties (ID)
+======================
+John_Smith (600)
+Bob_Anderson (601)
+Sue_Clark (602)
+Abu_Talib (603)
+Nancy_Bank (604)
+Susan_Brown (605)
+Ahmad_Saleh (606)
+Beth_Card (607)
+Joe_Abraham (608)
+
+Press any key to continue . . .
